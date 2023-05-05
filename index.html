@@ -33,1123 +33,1092 @@
 
 <body>
 
-    <!--
-    - #MAIN
-  -->
+  <main>
 
-    <main>
+    <!--- #SIDEBAR --->
 
-        <!--
-      - #SIDEBAR
-    -->
+    <aside class="sidebar" data-sidebar>
 
-        <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
 
-            <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/portrait_changjie_transparent.png" alt="Changjie Chen" width="80">
+        </figure>
 
-                <figure class="avatar-box">
-                    <img src="./assets/images/portrait_changjie_transparent.png" alt="Changjie Chen" width="80">
-                </figure>
+        <div class="info-content">
+          <h1 class="name" title="Changjie Chen">Changjie Chen</h1>
+          <p class="title">Postdoctoral Associate</p>
+        </div>
 
-                <div class="info-content">
-                    <h1 class="name" title="Changjie Chen">Changjie Chen</h1>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
-                    <p class="title">Postdoctoral Associate</p>
-                </div>
+      </div>
 
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
+      <div class="sidebar-info_more">
 
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
+        <div class="separator"></div>
 
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
-
-            <div class="sidebar-info_more">
-
-                <div class="separator"></div>
-
-                <ul class="contacts-list">
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-
-                            <a href="mailto:chj.chen@ufl.edu" class="contact-link">chj.chen@ufl.edu</a>
-                        </div>
-
-                    </li>
-
-                    <!-- <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <address>+1 (352) 665-3326</address>
-                        </div>
-
-                    </li> -->
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="business-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Organization</p>
-
-                            <a href="https://dcp.ufl.edu/fiber/" class="contact-link">
-                                Florida Institute for Built Environment Resilience</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-
-                            <address>Florida, USA</address>
-                        </div>
-
-                    </li>
-
-                </ul>
-
-                <div class="separator"></div>
-
-                <ul class="social-list">
-
-                    <li class="social-item">
-                        <a href="https://github.com/chjch" class="social-link" target="_blank">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <object type="image/svg+xml" data="/assets/images/researchgate.svg"></object>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://twitter.com/chang_jie_chen" class="social-link" target="_blank">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://www.linkedin.com/in/changjie-chen-77853882/" class="social-link" target="_blank">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </li>
-
-                </ul>
-                <br>
-                <div class="sidebar-info">
-                <a
-                    href="https://stackoverflow.com/users/4492663/chjch" class="social-link" target="_blank">
-                    <img src="https://img.shields.io/badge/Stack%20Overflow%20Reputation-642-FFDB70?&logo=stackoverflow"/>
-                </a>
-                </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:chj.chen@ufl.edu" class="contact-link">chj.chen@ufl.edu</a>
             </div>
+          </li>
 
-        </aside>
+          <!-- <li class="contact-item">
 
+              <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
+              <div class="contact-info">
+                  <p class="contact-title">Phone</p>
 
+                  <address>+1 (352) 665-3326</address>
+              </div>
 
+          </li> -->
 
-        <!--
-      - #main-content
-    -->
-
-        <div class="main-content">
-
-            <!--
-        - #NAVBAR
-      -->
-
-            <nav class="navbar">
-
-                <ul class="navbar-list">
-
-                    <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>About</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Resume</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Portfolio</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Research</button>
-                    </li>
-
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Contact</button>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-
-
-
-
-            <!--
-        - #ABOUT
-      -->
-
-            <article class="about  active" data-page="about">
-
-                <header>
-                    <h2 class="h2 article-title">About</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>
-                        Hello there &#128075;, I'm Changjie Chen, an <em>urban planner</em> and <em>statistician</em>
-                        whose research emphasis is directed at the simulation of future
-                        land-use scenarios and transportation modeling by integrating
-                        <strong>spatial analytics</strong>, <strong>High-Performance Computing</strong> (HPC),
-                        and <strong>Artificial Intelligence</strong>.
-                    </p>
-
-                    <p>
-                        I am passionate about developing <strong>open-source</strong>
-                        Geographic Information System (GIS) tools.
-                        Through the <a href="https://www.nasa.gov/mission_pages/servir/overview.html"
-                            class="about-link">
-                            <strong>SERVIR</strong></a>
-                        program, a joint initiative by NASA and USAID, some of my tools
-                        are actively used by urban planners and GIS professionals in Ghana
-                        and other West African countries.
-                    </p>
-
-                    <p>I'm also a husband and a father of a 3-year-old girl. Besides playing
-                        with her, I like to play basketball and guitar, just for fun.
-                        I'm also a HUGE fan of Real Madrid C.F. Hala Madrid!!!
-                    </p>
-                </section>
-
-
-                <!--
-          - service
-        -->
-
-                <section class="service">
-
-                    <h3 class="h3 service-title">Focus</h3>
-
-                    <ul class="service-list">
-
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./assets/images/planning.svg" alt="planning icon" width="100">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Urban planning</h4>
-
-                                <p class="service-item-text">
-                                    Improve built environment resilience through land use planning.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./assets/images/ai.svg" alt="ai icon" width="100">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Artificial intelligence</h4>
-
-                                <p class="service-item-text">
-                                    Apply HPC and machine learning to solve planning issues.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./assets/images/gis.svg" alt="GIS development icon" width="100">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">GIS</h4>
-
-                                <p class="service-item-text">
-                                    Development and Application of the Geographic Information System.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-
-                            <div class="service-icon-box">
-                                <img src="./assets/images/3d-visual.svg" alt="3d visual icon" width="100">
-                            </div>
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Data visualization</h4>
-
-                                <p class="service-item-text">
-                                    Build interactive web apps for 3D data visualization and animation.
-                                </p>
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                </section>
-
-
-                <!--
-          - course
-        -->
-
-                <section class="course">
-
-                    <h3 class="h3 course-title">Course</h3>
-
-                    <ul class="research-list">
-
-                        <li class="research-item">
-
-                            <p class="research-text">
-                                URP 6271: <strong>Automation of Geospatial Modeling and Analysis</strong>
-                            </p>
-
-                        </li>
-
-                        <li class="research-item">
-
-                            <p class="research-text">
-                                LAA 6656: <strong>Advanced Landscape Architectural Design Studio</strong>
-                            </p>
-
-                        </li>
-
-                        <li class="research-item">
-
-                            <p class="research-text">
-                                URP 6231: <strong>Quantitative Data Analysis for Planners</strong>
-                            </p>
-
-                        </li>
-
-                        <li class="research-item">
-
-                            <p class="research-text">
-                                LAA 4356: <strong>Environmental Planning & Design Studio</strong>
-                            </p>
-
-                        </li>
-                    </ul>
-
-                </section>
-
-
-
-
-                <!--
-          - clients
-        -->
-
-
-            </article>
-
-
-
-
-
-            <!--
-        - #RESUME
-      -->
-
-            <article class="resume" data-page="resume">
-
-                <header>
-                    <h2 class="h2 article-title">Resume</h2>
-                </header>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="school-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Education</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Ph.D. in Design Constuction and Planning</h4>
-
-                            <span>2015 — 2019</span>
-
-                            <p class="timeline-text">
-                                College of Design, Construction, and Planning, University of Florida, USA
-                            </p>
-
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Master of Statistics</h4>
-
-                            <span>2017 — 2021</span>
-
-                            <p class="timeline-text">
-                                Department of Statistics, University of Florida, USA
-                            </p>
-
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Master of Arts in Urban and Regional Planning</h4>
-
-                            <span>2012 — 2014</span>
-
-                            <p class="timeline-text">
-                                Department of Urban and Regional Planning, University of Florida, USA
-                            </p>
-
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Bachelor of Science</h4>
-
-                            <span>2007 — 2011</span>
-
-                            <p class="timeline-text">
-                                School of Geomatics, Liaoning Technical University, China
-                            </p>
-
-                        </li>
-
-                    </ol>
-
-                </section>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="id-card-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Experience</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Postdoctoral Associate</h4>
-
-                            <span>2019 — Present</span>
-
-                            <p class="timeline-text">
-                                Florida Institute for Built Environment Resilience (FIBER), University of Florida, FL,
-                                USA
-                            </p>
-
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">GIS Supervisor</h4>
-
-                            <span>2015 — 2017</span>
-
-                            <p class="timeline-text">
-                                Public Works Department, City of Gainesville, FL, USA
-                            </p>
-
-                        </li>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Assistant Transit Planner</h4>
-
-                            <span>2014 — 2015</span>
-
-                            <p class="timeline-text">
-                                Regional Transit System (RTS), City of Gainesville, FL, USA
-                            </p>
-
-                        </li>
-
-                    </ol>
-
-                </section>
-
-                <section class="skill">
-
-                    <h3 class="h3 skills-title">Programming Languages</h3>
-
-                    <ul class="skills-list content-card">
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">Python</h5>
-                                <data value="90">90%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 90%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">R</h5>
-                                <data value="80">80%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">C#</h5>
-                                <data value="50">50%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 50%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">HTML, CSS, JavaScript</h5>
-                                <data value="70">70%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 70%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">SQL</h5>
-                                <data value="60">60%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 60%;"></div>
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                </section>
-
-            </article>
-
-
-
-
-
-            <!--
-        - #PORTFOLIO
-      -->
-
-            <article class="portfolio" data-page="portfolio">
-
-                <header>
-                    <h2 class="h2 article-title">Portfolio</h2>
-                </header>
-
-                <section class="projects">
-
-                    <ul class="filter-list">
-
-                        <li class="filter-item">
-                            <button class="active" data-filter-btn>All</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>OpenCourseWare</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>Web Apps</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>GIS development</button>
-                        </li>
-
-                    </ul>
-
-                    <div class="filter-select-box">
-
-                        <button class="filter-select" data-select>
-
-                            <div class="select-value" data-select-value>Select category</div>
-
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-
-                        </button>
-
-                        <ul class="select-list">
-
-                            <li class="select-item">
-                                <button data-select-item>All</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>OpenCourseWare</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>Web Apps</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>GIS development</button>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <ul class="project-list">
-                        <li class="project-item  active" data-filter-item data-category="gis development">
-                            <a href="https://pylusat.readthedocs.io/" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/pylusat2.png" alt="pylusat" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">PyLUSAT</h3>
-
-                                <p class="project-category">GIS development</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="web apps">
-                            <a href="https://resilientportstjoe.web.app" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/psj.png" alt="psj" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Interactive Dashboard</h3>
-
-                                <p class="project-category">Web Apps</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="opencourseware">
-                            <a href="https://servir-wa.github.io/GALUP/" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/galup-training.png" alt="galuptraining" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">GALUP Training</h3>
-
-                                <p class="project-category">OpenCourseWare</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="web apps">
-                            <a href="https://trailuse-fvcozigauq-ue.a.run.app/" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/trailapp.png" alt="trailapp" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Trail Use Analysis</h3>
-
-                                <p class="project-category">Web Apps</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="gis development">
-                            <a href="https://plugins.qgis.org/plugins/pylusatq/" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/pylusatq.png" alt="pylusatq" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">PyLUSAT for QGIS</h3>
-
-                                <p class="project-category">GIS development</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="web apps">
-                            <a href="https://gainesvillefl.maps.arcgis.com/apps/webappviewer/index.html?id=221fd437535c46ecbf901f6a30613998"
-                                target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/agol.png" alt="dsm." loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">ArcGIS Online Web App</h3>
-
-                                <p class="project-category">Web Apps</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="gis development">
-                            <a href="https://github.com/chjch/taa" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/taa.png" alt="metaspark" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Transit Accessibility Analyst</h3>
-
-                                <p class="project-category">GIS development</p>
-
-                            </a>
-                        </li>
-
-                        <li class="project-item  active" data-filter-item data-category="opencourseware">
-                            <a href="https://chjch.github.io/gisautomation/" target="_blank">
-
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-
-                                    <img src="./assets/images/urp6271.png" alt="urp6271" loading="lazy">
-                                </figure>
-
-                                <h3 class="project-title">Automation of GIS</h3>
-
-                                <p class="project-category">OpenCourseWare</p>
-
-                            </a>
-                        </li>
-
-                        <!-- <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>GI
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="business-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Organization</p>
+              <a href="https://dcp.ufl.edu/fiber/" class="contact-link">
+                Florida Institute for Built Environment Resilience
               </a>
-            </li> -->
+            </div>
+          </li>
 
-                        <li class="project-item  active" data-filter-item data-category="opencourseware">
-                            <a href="https://github.com/chjch/LAA6656" target="_blank">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Florida, USA</address>
+            </div>
+          </li>
 
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
+        </ul>
+
+        <div class="separator"></div> 
 
-                                    <img src="./assets/images/laa6656.png" alt="laa6656" loading="lazy">
-                                </figure>
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://github.com/chjch" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <object type="image/svg+xml" data="/assets/images/researchgate.svg"></object>
+            </li>
 
-                                <h3 class="project-title">GIS Tutorial - LAA 6656</h3>
+            <li class="social-item">
+              <a href="https://twitter.com/chang_jie_chen" class="social-link" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-                                <p class="project-category">OpenCourseWare</p>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/changjie-chen-77853882/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-                            </a>
-                        </li>
+          </ul>
+          <br>
+          <div class="sidebar-info">
+            <a href="https://stackoverflow.com/users/4492663/chjch" class="social-link" target="_blank">
+              <img src="https://img.shields.io/badge/Stack%20Overflow%20Reputation-706-FFDB70?&logo=stackoverflow"/>
+            </a>
+          </div>
+      
+      </div>
 
-                    </ul>
+    </aside>
 
-                </section>
+    <!--- #main-content --->
 
-            </article>
+    <div class="main-content">
 
+      <!--- #NAVBAR --->
 
+      <nav class="navbar">
 
+        <ul class="navbar-list">
 
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
 
-            <!--
-        - #RESEARCH
-      -->
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-            <article class="research" data-page="research">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Research</button>
+            </li>
 
-                <header>
-                    <h2 class="h2 article-title">Research</h2>
-                </header>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-                <section class="research">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
 
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="reader-outline"></ion-icon>
-                        </div>
+        </ul>
 
-                        <h3 class="h3">Publications</h3>
-                    </div>
+      </nav>
 
-                    <ol class="research-list">
 
-                        <li class="research-item">
+      <!--- #ABOUT --->
 
-                            <p class="research-text">
-                                <strong>Chen C.</strong>, Judge J., Hulse D. 2022. PyLUSAT: An open-source Python
-                                toolkit for GIS-based land use suitability analysis. <em>Environmental
-                                    Modelling & Software</em>.
-                                DOI: <a href="https://doi.org/10.1016/j.envsoft.2022.105362" target="_blank" class="research-link">
-                                    10.1016/j.envsoft.2022.105362</a>.
-                            </p>
+      <article class="about active" data-page="about">
 
-                        </li>
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
 
-                        <li class="research-item">
+        <section class="about-text">
+          <p>
+            Hello there &#128075;, I'm Changjie Chen, Ph.D., an <em>urban planner</em>
+            and <em>statistician</em>.
+            My research leverages <strong>geospatial analysis</strong>, 
+            <strong>machine learning</strong>, and <strong>High-Performance Computing</strong> (HPC)
+            to inform decision-making about integrated land use and transportation systems.
+          </p>
+
+          <p>
+            I am passionate about developing <strong>open-source</strong>
+            Geographic Information System (GIS) tools.
+            Through the
+            <a href="https://www.nasa.gov/mission_pages/servir/overview.html" class="about-link">
+              <strong>SERVIR</strong></a>
+            program, a joint initiative by NASA and USAID, some of the tools I developed
+            are actively used by urban planners and GIS professionals in Ghana
+            and other West African countries.
+          </p>
+
+          <p>
+            I'm also a father of a 3-year-old girl. Besides playing
+            with her, I like to play basketball and guitar, just for fun.
+            I'm also a HUGE fan of Real Madrid C.F. Hala Madrid!!!
+          </p>
+        </section>
+
+        <!--- service --->
+        <section class="service">
+
+          <h3 class="h3 service-title">Focus</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/planning.svg" alt="planning icon" width="100">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Urban planning</h4>
+                <p class="service-item-text">
+                  Improve built environment resilience through land use planning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.svg" alt="ai icon" width="100">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial intelligence</h4>
+                <p class="service-item-text">
+                  Apply HPC and machine learning to solve planning issues.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/gis.svg" alt="GIS development icon" width="100">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">GIS</h4>
+                <p class="service-item-text">
+                  Development and Application of the Geographic Information System.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/3d-visual.svg" alt="3d visual icon" width="100">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data visualization</h4>
+                <p class="service-item-text">
+                  Build interactive web apps for 3D data visualization and animation.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+         <!--- recent work highlights --->
+        <section class="service">
+          <h3 class="h3 service-title">Recent Work Highlights</h3>
+          <p class="about-text research-list research-item" style="margin-bottom:10px;">
+            Ghana Land Use Project (GALUP)
+          </p>
+          <iframe scrolling="no" title="galup2" width="60%" height="285" frameBorder="0" allowfullscreen="true"
+            style="margin-left:20px"
+            src="https://mediasite.video.ufl.edu/Mediasite/Play/22a276d2cb6f44b98bc1e368cc7085821d">
+          </iframe>
+          <p class="about-text research-list research-item" style="margin-top:10px;margin-bottom:10px;">
+            Resilient Cedar Key
+          </p>
+          <a href="https://www.wuft.org/news/2023/05/02/resilient-cedar-key-flooding-vulnerability-map/" target="_blank">
+            <img src="./assets/images/cdk_news.png" alt="cdk news" loading="lazy"
+            width="60%" height="285" style="margin-left:20px">
+          </a>
+        </section>
 
-                            <p class="research-text">
-                                <strong>Chen C.</strong>, Wang L., Murtha T., Hulse D. 2022.
-                                Lessons from livestreaming fieldtrips: Evaluating an alternative
-                                fieldtrip approach in teaching landscape architectural studios.
-                                <em>Journal of Digital Landscape Architecture</em>, 7-22.
-                                DOI: <a href="https://doi.org/10.14627/537724057" target="_blank" class="research-link">
-                                    10.14627/537724057</a>.
-                            </p>
+        <!--- course --->
+        <section class="course">
 
-                        </li>
+          <h3 class="h3 course-title">Teaching</h3>
 
-                        <li class="research-item">
+          <ul class="research-list">
 
-                            <p class="research-text">
-                                Han Y., <strong>Chen C.</strong>, Peng Z, Mozumder P. 2022.
-                                Evaluating the Impacts of Coastal Flood Damage on Transportation
-                                System using an activity-based travel demand model: a case study
-                                in Miami-Dade County, FL. <em>Transportation</em>. DOI:
-                                <a href="https://doi.org/10.1007/s11116-021-10172-w" target="_blank" class="research-link">
-                                    10.1007/s11116-021-10172-w</a>.
-                            </p>
+            <li class="research-item">
+              <p class="research-text">
+                URP 6271:
+                <strong>
+                  <a href="https://chjch.github.io/gisautomation/" target="_blank" class="about-link">
+                    Automation of Geospatial Modeling and Analysis
+                  </a>
+                </strong>
+              </p>
+            </li>
 
-                        </li>
-                        
-                        <li class="research-item">
+            <li class="research-item">
+              <p class="research-text">
+                  LAA 6656:
+                  <strong>
+                    <a href="https://chjch.github.io/gisautomation/" target="_blank" class="about-link">
+                      Advanced Landscape Architectural Design Studio
+                    </a>
+                  </strong>
+              </p>
+            </li>
 
-                            <p class="research-text">
-                                Fang J., Yan X., Bejleri I., <strong>Chen C.</strong> 2022. 
-                                Which trip destination matters? Estimating the influence of 
-                                the built environment on mode choice for home-based complex tours. 
-                                <em>Transport Geography</em>, DOI: 
-                                <a href="https://doi.org/10.1016/j.jtrangeo.2022.103474" target="_blank" class="research-link">
-                                10.1016/j.jtrangeo.2022.103474.</a>
-                            </p>
+            <li class="research-item">
+                <p class="research-text">
+                  URP 6231: <strong>Quantitative Data Analysis for Planners</strong>
+                </p>
+            </li>
 
-                        </li>
+            <li class="research-item">
+                <p class="research-text">
+                    LAA 4356: <strong>Environmental Planning & Design Studio</strong>
+                </p>
+            </li>
+          </ul>
 
-                        <li class="research-item">
+        </section>
 
-                            <p class="research-text">
-                                Brown M., <strong>Chen C.</strong>, Wang L., Murtha T. 2022.
-                                Identifying cultural resource hotspots via crowdsourcing and
-                                expert perspectives in the Eastern US.
-                                <em>Journal of Digital Landscape Architecture</em>, 7-2022, DOI:
-                                <a href="https://doi.org/10.14627/537724016" class="research-link">
-                                    10.14627/537724016</a>.
-                            </p>
+      </article>
 
-                        </li>
+      <!--- #RESUME --->
 
-                        <li class="research-item">
+      <article class="resume" data-page="resume">
 
-                            <p class="research-text">
-                                Wang Y., Rahimi-Golkhandan A., <strong>Chen C.</strong>, Taylor J.,
-                                Garvin M. 2019. Measuring the Impact of Transportation Diversity on
-                                Disaster Resilience in Urban Communities: Case Study of Hurricane
-                                Harvey in Houston, TX. <em>Computing in Civil Engineering 2019:
-                                    Smart Cities, Sustainability, and Resilience</em>. DOI:
-                                <a href="https://doi.org/10.1061/9780784482445.071" target="_blank" class="research-link">
-                                    10.1061/9780784482445.071</a>.
-                            </p>
+          <header>
+              <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-                        </li>
+          <section class="timeline">
 
-                    </ol>
+              <div class="title-wrapper">
+                  <div class="icon-box">
+                      <ion-icon name="school-outline"></ion-icon>
+                  </div>
 
-                </section>
+                  <h3 class="h3">Education</h3>
+              </div>
 
-                <section class="research">
+              <ol class="timeline-list">
 
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="ribbon-outline"></ion-icon>
-                        </div>
+                  <li class="timeline-item">
 
-                        <h3 class="h3">Grants</h3>
-                    </div>
+                      <h4 class="h4 timeline-item-title">Ph.D. in Design Constuction and Planning</h4>
 
-                    <ol class="research-list">
+                      <span>2015 — 2019</span>
 
-                        <li class="research-item">
+                      <p class="timeline-text">
+                          College of Design, Construction, and Planning, University of Florida, USA
+                      </p>
 
-                            <p class="research-text">
-                                NASA/USAID SERVIR. <em>Linking deforestation,
-                                    urbanization, and agricultural expansion for land-use decisions
-                                    in Ghana</em>. 2020-2023. $660,286.
-                            </p>
+                  </li>
 
-                        </li>
+                  <li class="timeline-item">
 
-                        <li class="research-item">
+                      <h4 class="h4 timeline-item-title">Master of Statistics</h4>
 
-                            <p class="research-text">
-                                NASA/USAID SERVIR. <em>Integrating
-                                    socio-economic and remotely sensed information to characterize
-                                    conflict precursors and land degradation dynamics in Ghana</em>.
-                                2023-2025. $659,774.
-                            </p>
+                      <span>2017 — 2021</span>
 
-                        </li>
+                      <p class="timeline-text">
+                          Department of Statistics, University of Florida, USA
+                      </p>
 
-                        <li class="research-item">
+                  </li>
 
-                            <p class="research-text">
-                                Florida Department of Environment Projection.
-                                <em>Resilient Port St. Joe</em>.
-                                2022-2024. $218,895.
-                            </p>
+                  <li class="timeline-item">
 
-                        </li>
+                      <h4 class="h4 timeline-item-title">Master of Arts in Urban and Regional Planning</h4>
 
-                    </ol>
+                      <span>2012 — 2014</span>
 
-                </section>
+                      <p class="timeline-text">
+                          Department of Urban and Regional Planning, University of Florida, USA
+                      </p>
 
-                <section class="research">
+                  </li>
 
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <img src="./assets/images/icon-present.svg" alt="present icon" width="25px">
-                        </div>
+                  <li class="timeline-item">
 
-                        <h3 class="h3">Conference Presentations</h3>
-                    </div>
+                      <h4 class="h4 timeline-item-title">Bachelor of Science</h4>
 
-                    <ol class="research-list">
+                      <span>2007 — 2011</span>
 
-                        <li class="research-item">
+                      <p class="timeline-text">
+                          School of Geomatics, Liaoning Technical University, China
+                      </p>
 
-                            <p class="research-text">
-                                Peeling J., <strong>Chen C.</strong>, Singh A., Judge J. 2022.
-                                Integrating time series remote sensing information in suitability
-                                analysis for land use planning.
-                                <em>International Geoscience and Remote Sensing Symposium</em> (IGARSS) 2022.
-                                DOI: <a href="https://doi.org/10.1109/IGARSS46834.2022.9883685" class="research-link">
-                                    10.1109/IGARSS46834.2022.9883685</a>.
-                            </p>
+                  </li>
 
-                        </li>
+              </ol>
 
-                        <li class="research-item">
+          </section>
 
-                            <p class="research-text">
-                                <strong>Chen C.</strong>, Judge J., Kiker G., Peeling J. 2021.
-                                Building capacity for decision makers in Ghana for sustainable
-                                land use planning using earth observations and open-source GIS
-                                tools. <em>American Geophysical Union</em> (AGU) Fall 2021.
-                                DOI: <a href="https://doi.org/10.1002/essoar.10509617.1" class="research-link">
-                                    10.1002/essoar.10509617.1</a>.
-                            </p>
+          <section class="timeline">
 
-                        </li>
+              <div class="title-wrapper">
+                  <div class="icon-box">
+                      <ion-icon name="id-card-outline"></ion-icon>
+                  </div>
 
-                        <li class="research-item">
+                  <h3 class="h3">Experience</h3>
+              </div>
 
-                            <p class="research-text">
-                                <strong>Chen C.</strong> 2021. Massive Land-Use Suitability
-                                Analysis Based on Parallel Computing: A Case Study in Orange County, Florida.
-                                <em>Association of Collegiate Schools of Planning (ACSP) 61st Annual Conference.</em>
+              <ol class="timeline-list">
 
-                        </li>
+                  <li class="timeline-item">
 
-                        <li class="research-item">
+                      <h4 class="h4 timeline-item-title">Postdoctoral Associate</h4>
 
-                            <p class="research-text">
-                                Wang L., <strong>Chen C.</strong> 2021. Assessing a suitable
-                                infrastructure land system. <em>International Geodesign Collaboration
-                                    (IGC) conference.</em>
-                            </p>
+                      <span>2019 — Present</span>
 
-                        </li>
+                      <p class="timeline-text">
+                          Florida Institute for Built Environment Resilience (FIBER), University of Florida, FL,
+                          USA
+                      </p>
 
-                        <li class="research-item">
+                  </li>
 
-                            <p class="research-text">
-                                Noh S., Bejleri I., Zhai L., <strong>Chen C.</strong> 2021.
-                                Measuring and improving accessibility to public transit: the
-                                Transit Accessibility Analyst (TAA) Application. <em>Transportation
-                                    Research Board (TRB) National Transportation Planning Applications Conference</em>.
-                            </p>
+                  <li class="timeline-item">
 
-                        </li>
+                      <h4 class="h4 timeline-item-title">GIS Supervisor</h4>
 
-                    </ol>
+                      <span>2015 — 2017</span>
 
-                </section>
+                      <p class="timeline-text">
+                          Public Works Department, City of Gainesville, FL, USA
+                      </p>
 
-            </article>
+                  </li>
 
+                  <li class="timeline-item">
 
+                      <h4 class="h4 timeline-item-title">Assistant Transit Planner</h4>
 
+                      <span>2014 — 2015</span>
 
+                      <p class="timeline-text">
+                          Regional Transit System (RTS), City of Gainesville, FL, USA
+                      </p>
 
-            <!--
-        - #CONTACT
-      -->
+                  </li>
 
-            <article class="contact" data-page="contact">
+              </ol>
 
-                <header>
-                    <h2 class="h2 article-title">Contact</h2>
-                </header>
+          </section>
 
-                <section class="mapbox" data-mapbox>
-                    <figure>
-                        <iframe src="mapbox.html" height="300px" width="400px" title="Office Map"></iframe>
-                    </figure>
-                </section>
+          <section class="skill">
 
-                <section class="contact-form">
+              <h3 class="h3 skills-title">Programming Languages</h3>
 
-                    <h3 class="h3 form-title">Contact Form</h3>
+              <ul class="skills-list content-card">
 
-                    <form action="mailto:chj.chen@ufl.edu" class="form" data-form>
+                  <li class="skills-item">
 
-                        <div class="input-wrapper">
-                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required
-                                data-form-input>
+                      <div class="title-wrapper">
+                          <h5 class="h5">Python</h5>
+                          <data value="90">90%</data>
+                      </div>
 
-                            <input type="email" name="email" class="form-input" placeholder="Email address" required
-                                data-form-input>
-                        </div>
+                      <div class="skill-progress-bg">
+                          <div class="skill-progress-fill" style="width: 90%;"></div>
+                      </div>
 
-                        <textarea name="message" class="form-input" placeholder="Your Message" required
-                            data-form-input></textarea>
+                  </li>
 
-                        <button class="form-btn" type="submit" disabled data-form-btn>
-                            <ion-icon name="paper-plane"></ion-icon>
-                            <span>Send Message</span>
-                        </button>
+                  <li class="skills-item">
 
-                    </form>
+                      <div class="title-wrapper">
+                          <h5 class="h5">R</h5>
+                          <data value="80">80%</data>
+                      </div>
 
-                </section>
+                      <div class="skill-progress-bg">
+                          <div class="skill-progress-fill" style="width: 80%;"></div>
+                      </div>
 
-        </div>
+                  </li>
 
-        </article>
+                  <li class="skills-item">
 
-        </div>
+                      <div class="title-wrapper">
+                          <h5 class="h5">C#</h5>
+                          <data value="50">50%</data>
+                      </div>
 
-    </main>
+                      <div class="skill-progress-bg">
+                          <div class="skill-progress-fill" style="width: 50%;"></div>
+                      </div>
 
+                  </li>
 
+                  <li class="skills-item">
 
+                      <div class="title-wrapper">
+                          <h5 class="h5">HTML, CSS, JavaScript</h5>
+                          <data value="70">70%</data>
+                      </div>
 
+                      <div class="skill-progress-bg">
+                          <div class="skill-progress-fill" style="width: 70%;"></div>
+                      </div>
 
+                  </li>
 
+                  <li class="skills-item">
 
-    <!--
-    - custom js link
-  -->
-    <script src="./assets/js/script.js"></script>
+                      <div class="title-wrapper">
+                          <h5 class="h5">SQL</h5>
+                          <data value="60">60%</data>
+                      </div>
 
-    <!--
-    - ionicon link
-  -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                      <div class="skill-progress-bg">
+                          <div class="skill-progress-fill" style="width: 60%;"></div>
+                      </div>
+
+                  </li>
+
+              </ul>
+
+          </section>
+
+      </article>
+
+      <!--- #RESEARCH --->
+
+      <article class="research" data-page="research">
+
+        <header>
+            <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="research">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="reader-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="research-list">
+
+            <li class="research-item">
+
+              <p class="research-text">
+                <strong>Chen C.</strong>, Judge J., Hulse D. 2022. PyLUSAT: An open-source Python
+                toolkit for GIS-based land use suitability analysis.
+                <em>Environmental Modelling & Software
+                </em>.
+                DOI: 
+                <a href="https://doi.org/10.1016/j.envsoft.2022.105362" target="_blank" class="research-link">
+                  10.1016/j.envsoft.2022.105362
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                <strong>Chen C.</strong>, Wang L., Murtha T., Hulse D. 2022.
+                Lessons from livestreaming fieldtrips: Evaluating an alternative
+                fieldtrip approach in teaching landscape architectural studios.
+                <em>Journal of Digital Landscape Architecture
+                </em>, 7-22.
+                DOI:
+                <a href="https://doi.org/10.14627/537724057" target="_blank" class="research-link">
+                  10.14627/537724057
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+                <p class="research-text">
+                  Han Y., <strong>Chen C.</strong>, Peng Z, Mozumder P. 2022.
+                  Evaluating the Impacts of Coastal Flood Damage on Transportation
+                  System using an activity-based travel demand model: a case study
+                  in Miami-Dade County, FL. 
+                  <em>Transportation
+                  </em>.
+                  DOI:
+                  <a href="https://doi.org/10.1007/s11116-021-10172-w" target="_blank" class="research-link">
+                    10.1007/s11116-021-10172-w
+                  </a>.
+                </p>
+
+            </li>
+              
+            <li class="research-item">
+
+              <p class="research-text">
+                Fang J., Yan X., Bejleri I., <strong>Chen C.</strong> 2022. 
+                Which trip destination matters? Estimating the influence of 
+                the built environment on mode choice for home-based complex tours. 
+                <em>Transport Geography
+                </em>,
+                DOI:
+                <a href="https://doi.org/10.1016/j.jtrangeo.2022.103474" target="_blank" class="research-link">
+                  10.1016/j.jtrangeo.2022.103474
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Brown M., <strong>Chen C.</strong>, Wang L., Murtha T. 2022.
+                Identifying cultural resource hotspots via crowdsourcing and
+                expert perspectives in the Eastern US.
+                <em>Journal of Digital Landscape Architecture
+                </em>, 7-2022,
+                DOI:
+                <a href="https://doi.org/10.14627/537724016" class="research-link">
+                  10.14627/537724016
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Wang Y., Rahimi-Golkhandan A., <strong>Chen C.</strong>, Taylor J.,
+                Garvin M. 2019. Measuring the Impact of Transportation Diversity on
+                Disaster Resilience in Urban Communities: Case Study of Hurricane
+                Harvey in Houston, TX.
+                <em>Computing in Civil Engineering 2019:
+                  Smart Cities, Sustainability, and Resilience
+                </em>.
+                DOI:
+                <a href="https://doi.org/10.1061/9780784482445.071" target="_blank" class="research-link">
+                  10.1061/9780784482445.071
+                </a>.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="research">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Grants</h3>
+          </div>
+
+          <ol class="research-list">
+
+            <li class="research-item">
+
+              <p class="research-text">
+                NASA/USAID SERVIR (grant#: 80NSSC23K0247).
+                <em>Linking deforestation, urbanization, and agricultural expansion
+                  for land-use decisions in Ghana
+                </em>.
+                2020-2023. $660,286.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                NASA/USAID SERVIR (grant#: 80NSSC20K0153).
+                <em>Integrating socio-economic and remotely sensed information
+                  to characterize conflict precursors and land degradation
+                  dynamics in Ghana
+                </em>.
+                2023-2025. $659,774.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Florida Department of Environment Projection.
+                <em>Resilient Cities</em>.
+                2022-2024. $218,895.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="research">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/icon-present.svg" alt="present icon" width="25px">
+            </div>
+            <h3 class="h3">Conference Presentations</h3>
+          </div>
+
+          <ol class="research-list">
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Peeling J., <strong>Chen C.</strong>, Singh A., Judge J. 2022.
+                Integrating time series remote sensing information in suitability
+                analysis for land use planning.
+                <em>International Geoscience and Remote Sensing Symposium
+                </em> (IGARSS) 2022.
+                DOI:
+                <a href="https://doi.org/10.1109/IGARSS46834.2022.9883685" class="research-link">
+                  10.1109/IGARSS46834.2022.9883685
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                <strong>Chen C.</strong>, Judge J., Kiker G., Peeling J. 2021.
+                Building capacity for decision makers in Ghana for sustainable
+                land use planning using earth observations and open-source GIS
+                tools.
+                <em>American Geophysical Union
+                </em> (AGU) Fall 2021.
+                DOI:
+                <a href="https://doi.org/10.1002/essoar.10509617.1" class="research-link">
+                  10.1002/essoar.10509617.1
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                <strong>Chen C.</strong> 2021.
+                Massive land-use suitability analysis based on parallel computing:
+                A case study in Orange County, Florida.
+                <em>Association of Collegiate Schools of Planning
+                </em> (ACSP) 61st Annual Conference.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Wang L., <strong>Chen C.</strong> 2021.
+                Assessing a suitable infrastructure land system.
+                <em>International Geodesign Collaboration
+                </em> (IGC) conference.
+              </p>
+
+            </li>
+
+            <li class="research-item">
+
+              <p class="research-text">
+                Noh S., Bejleri I., Zhai L., <strong>Chen C.</strong> 2021.
+                Measuring and improving accessibility to public transit:
+                the Transit Accessibility Analyst (TAA) Application.
+                <em>Transportation Research Board (TRB)
+                  National Transportation Planning Applications Conference
+                </em>.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--- #PORTFOLIO --->
+
+      <article class="portfolio" data-page="portfolio">
+
+          <header>
+              <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+              <ul class="filter-list">
+
+                  <li class="filter-item">
+                      <button class="active" data-filter-btn>All</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>OpenCourseWare</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>Web Apps</button>
+                  </li>
+
+                  <li class="filter-item">
+                      <button data-filter-btn>GIS development</button>
+                  </li>
+
+              </ul>
+
+              <div class="filter-select-box">
+
+                  <button class="filter-select" data-select>
+
+                      <div class="select-value" data-select-value>Select category</div>
+
+                      <div class="select-icon">
+                          <ion-icon name="chevron-down"></ion-icon>
+                      </div>
+
+                  </button>
+
+                  <ul class="select-list">
+
+                      <li class="select-item">
+                          <button data-select-item>All</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>OpenCourseWare</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>Web Apps</button>
+                      </li>
+
+                      <li class="select-item">
+                          <button data-select-item>GIS development</button>
+                      </li>
+
+                  </ul>
+
+              </div>
+
+              <ul class="project-list">
+                  <li class="project-item  active" data-filter-item data-category="gis development">
+                      <a href="https://pylusat.readthedocs.io/" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/pylusat2.png" alt="pylusat" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">PyLUSAT</h3>
+
+                          <p class="project-category">GIS development</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="web apps">
+                      <a href="https://resilientcedarkey.web.app" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/cdk.png" alt="cdk" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">Resilient Cedar Key</h3>
+
+                          <p class="project-category">Web Apps</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="opencourseware">
+                      <a href="https://servir-wa.github.io/GALUP/" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/galup-training.png" alt="galuptraining" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">GALUP Training</h3>
+
+                          <p class="project-category">OpenCourseWare</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="web apps">
+                      <a href="https://trailuse-fvcozigauq-ue.a.run.app/" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/trailapp.png" alt="trailapp" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">Trail Use Analysis</h3>
+
+                          <p class="project-category">Web Apps</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="gis development">
+                      <a href="https://plugins.qgis.org/plugins/pylusatq/" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/pylusatq.png" alt="pylusatq" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">PyLUSAT for QGIS</h3>
+
+                          <p class="project-category">GIS development</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="web apps">
+                      <a href="https://gainesvillefl.maps.arcgis.com/apps/webappviewer/index.html?id=221fd437535c46ecbf901f6a30613998"
+                          target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/agol.png" alt="dsm." loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">ArcGIS Online Web App</h3>
+
+                          <p class="project-category">Web Apps</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="gis development">
+                      <a href="https://github.com/chjch/taa" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/taa.png" alt="metaspark" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">Transit Accessibility Analyst</h3>
+
+                          <p class="project-category">GIS development</p>
+
+                      </a>
+                  </li>
+
+                  <li class="project-item  active" data-filter-item data-category="opencourseware">
+                      <a href="https://chjch.github.io/gisautomation/" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/urp6271.png" alt="urp6271" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">Automation of GIS</h3>
+
+                          <p class="project-category">OpenCourseWare</p>
+
+                      </a>
+                  </li>
+
+                  <!-- <li class="project-item  active" data-filter-item data-category="applications">
+        <a href="#">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>GI
+
+            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Task Manager</h3>
+
+          <p class="project-category">Applications</p>
+
+        </a>
+      </li> -->
+
+                  <li class="project-item  active" data-filter-item data-category="opencourseware">
+                      <a href="https://github.com/chjch/LAA6656" target="_blank">
+
+                          <figure class="project-img">
+                              <div class="project-item-icon-box">
+                                  <ion-icon name="eye-outline"></ion-icon>
+                              </div>
+
+                              <img src="./assets/images/laa6656.png" alt="laa6656" loading="lazy">
+                          </figure>
+
+                          <h3 class="project-title">GIS Tutorial - LAA 6656</h3>
+
+                          <p class="project-category">OpenCourseWare</p>
+
+                      </a>
+                  </li>
+
+              </ul>
+
+          </section>
+
+      </article>
+
+      <!--- #CONTACT --->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe src="mapbox.html" height="300px" width="400px" title="Office Map"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:chj.chen@ufl.edu" class="form" data-form>
+
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required
+                  data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required
+                  data-form-input>
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Your Message" required
+                data-form-input>
+              </textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--- custom js link --->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
